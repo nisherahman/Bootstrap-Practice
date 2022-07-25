@@ -5,5 +5,25 @@
 }
 
 .background-gradient{
-    background-image: linear-gradient(90deg,blue,rgb(216,15,235));
+    background-image: linear-gradient(90deg,rgb(0, 0, 255),rgb(216,15,235));
+}
+.primary-color{
+    color:blue;
+}
+/* common css ends */
+.navbar-nav .nav-link{
+    margin-right: 20px;
+}
+.navbar-nav .nav-link i{
+    margin:0 10px;
+}
+#building-section{
+    background:url(../images/background.png) no-repeat center / cover;
+    height:600px;
+}
+.solution-section .solution img{
+    width:25%;
+}
+.about-section .about-item i{
+    font-size:50px;
 }
